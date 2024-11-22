@@ -1,0 +1,15 @@
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\bin\Debug\net8.0\User.Repository.deps.json
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\bin\Debug\net8.0\User.Repository.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\bin\Debug\net8.0\User.Repository.pdb
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\bin\Debug\net8.0\User.Models.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\bin\Debug\net8.0\User.Models.pdb
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.csproj.AssemblyReference.cache
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.AssemblyInfoInputs.cache
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.AssemblyInfo.cs
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Rep.809A8D6A.Up2Date
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\refint\User.Repository.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\User.Repository.pdb
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Repository\obj\Debug\net8.0\ref\User.Repository.dll

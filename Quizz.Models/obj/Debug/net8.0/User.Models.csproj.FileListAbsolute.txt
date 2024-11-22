@@ -1,0 +1,11 @@
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\bin\Debug\net8.0\User.Models.deps.json
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\bin\Debug\net8.0\User.Models.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\bin\Debug\net8.0\User.Models.pdb
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\User.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\User.Models.AssemblyInfoInputs.cache
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\User.Models.AssemblyInfo.cs
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\User.Models.csproj.CoreCompileInputs.cache
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\User.Models.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\refint\User.Models.dll
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\User.Models.pdb
+C:\Users\Budzzzx\source\repos\C#Quizz_App_SLN\Quizz.Models\obj\Debug\net8.0\ref\User.Models.dll
