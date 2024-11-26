@@ -8,16 +8,13 @@ namespace Quiz.Models
 {
     public class Quizz
     {
+        public int Id { get; set; }
         public string Question { get; set; }
 
-        public string optionA { get; set; }
-        public string optionB { get; set; }
+        public string[] Options { get; set; }
 
-        public string optionC { get; set; }
+        public int CorrectOpinionIndex { get; set; }
 
-        public string optionD { get; set; }
-
-        public Type Type { get; set; }
-
+        public int AuthorId { get; set; }
     }
 }

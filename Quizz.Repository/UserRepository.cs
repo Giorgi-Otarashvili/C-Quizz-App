@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using Quiz.Models;
+using System.Diagnostics;
 using System.Text.Json;
 
 namespace QC_Quizz_App
@@ -6,13 +7,18 @@ namespace QC_Quizz_App
     public class UserRepository
     {
         private readonly string _filePath;
+        private readonly QuizzRepository _quizzRepository;
         private List<User> _users;
+        private List<Quizz> _quiz;
 
-        public UserRepository(string filepath)
+        public UserRepository(string filepath, QuizzRepository quizzRepository = null)
         {
             _filePath = filepath;
             _users = LoadUsers();
+            _quizzRepository = quizzRepository;
         }
+
+
 
         public void Register()
         {
@@ -68,7 +74,7 @@ namespace QC_Quizz_App
         }
 
 
-        public void AfterLogin()
+        public void AfterLogin(User user)
         {
             while (true)
             {
@@ -84,7 +90,7 @@ namespace QC_Quizz_App
                         Console.WriteLine("play func");
                              break;
                         case "2":
-                        Console.WriteLine("Create func");
+                        _quizzRepository.CreateQuiz(user.Id);
                         break;
                         case "3":
                         Console.WriteLine("logout func");
@@ -98,17 +104,17 @@ namespace QC_Quizz_App
                 }
 
         }
-        
 
-        
 
-        public  void CreateUser(User user)
+
+        public void CreateUser(User user)
         {
             user.Id = _users.Any() ? _users.Max(x => x.Id) + 1 : 1;
             _users.Add(user);
             SaveData();
         }
 
+       
 
         public void SaveData()
         {

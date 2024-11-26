@@ -8,7 +8,8 @@ namespace C_Quizz_App
         static void Main(string[] args)
         {
 
-            var userRepository = new UserRepository("C:\\Users\\Budzzzx\\source\\repos\\C#Quizz_App_SLN\\Quizz.Repository\\Data\\Users.json");
+            var userRepository = new UserRepository("C:\\Users\\Budzzzx\\source\\repos\\C#Quizz_App_SLN\\Quizz.Repository\\Data\\Users.json",
+    new QuizzRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json"));
             var user = new User();
             while (true)
             {
@@ -29,7 +30,7 @@ namespace C_Quizz_App
                     case "2":
                         if (userRepository.Login())
                         {
-                            userRepository.AfterLogin();
+                            userRepository.AfterLogin(user);
                         }
                         break;
                     case "3":
