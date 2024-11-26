@@ -51,7 +51,7 @@ namespace QC_Quizz_App
 
         }
 
-        public bool  Login()
+        public User  Login()
         {
             Console.WriteLine("---Login---");
             Console.WriteLine("Enter your Username\n");
@@ -64,12 +64,12 @@ namespace QC_Quizz_App
             if(user == null)
             {
                 Console.WriteLine("Username or Password is incorrect\nPlease try again.");
-                return false;
+                return null;
             }
             else
             {
                 Console.WriteLine($"Welcome back, {username}!");
-                return true;
+                return user;
             }
         }
 

@@ -10,7 +10,6 @@ namespace C_Quizz_App
 
             var userRepository = new UserRepository("C:\\Users\\Budzzzx\\source\\repos\\C#Quizz_App_SLN\\Quizz.Repository\\Data\\Users.json",
     new QuizzRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json"));
-            var user = new User();
             while (true)
             {
                 Console.WriteLine("Welcome to quizz App");
@@ -28,9 +27,10 @@ namespace C_Quizz_App
                         return;
                      
                     case "2":
-                        if (userRepository.Login())
+                        var isLogin = userRepository.Login();
+                        if (isLogin != null)
                         {
-                            userRepository.AfterLogin(user);
+                            userRepository.AfterLogin(isLogin);
                         }
                         break;
                     case "3":
