@@ -8,8 +8,13 @@ namespace C_Quizz_App
         static void Main(string[] args)
         {
 
-            var userRepository = new UserRepository("C:\\Users\\Budzzzx\\source\\repos\\C#Quizz_App_SLN\\Quizz.Repository\\Data\\Users.json",
-    new QuizzRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json"));
+            var userRepository = new UserRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Users.json");
+            var quizzRepository = new QuizzRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json");
+
+            // Step 2: Pass repositories to the Game class
+            var game = new Game(quizzRepository, userRepository);
+
+
             while (true)
             {
                 Console.WriteLine("Welcome to quizz App");
@@ -20,17 +25,17 @@ namespace C_Quizz_App
 
                 string choice = Console.ReadLine();
 
-               switch(choice)
+                switch (choice)
                 {
                     case "1":
-                         userRepository.Register();
+                        userRepository.Register();
                         return;
-                     
+
                     case "2":
                         var isLogin = userRepository.Login();
                         if (isLogin != null)
                         {
-                            userRepository.AfterLogin(isLogin);
+                            game.AfterLogin(isLogin);
                         }
                         break;
                     case "3":
@@ -44,8 +49,8 @@ namespace C_Quizz_App
 
             }
 
-           
+
         }
-     
+
     }
 }

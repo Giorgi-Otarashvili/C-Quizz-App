@@ -2,23 +2,22 @@
 using System.Diagnostics;
 using System.Text.Json;
 
-namespace QC_Quizz_App
+    namespace QC_Quizz_App
 {
     public class UserRepository
     {
         private readonly string _filePath;
-        private readonly QuizzRepository _quizzRepository;
+        //private readonly QuizzRepository _quizzRepository;
         private List<User> _users;
-        private List<Quizz> _quiz;
+        //private readonly Game _game;
+        //private List<Quizz> _quiz;
 
-        public UserRepository(string filepath, QuizzRepository quizzRepository = null)
+        public UserRepository(string filepath /*QuizzRepository quizzRepository = null*/)
         {
             _filePath = filepath;
             _users = LoadUsers();
-            _quizzRepository = quizzRepository;
+            //_quizzRepository = quizzRepository;
         }
-
-
 
         public void Register()
         {
@@ -74,38 +73,6 @@ namespace QC_Quizz_App
         }
 
 
-        public void AfterLogin(User user)
-        {
-            while (true)
-            {
-                Console.WriteLine("\n--- Post Login Menu ---");
-                Console.WriteLine("1. Play Quiz");
-                Console.WriteLine("2. Create Quiz");
-                Console.WriteLine("3. Logout");
-                Console.Write("Select an option: ");
-
-                string afterLoginChoice = Console.ReadLine();
-                switch(afterLoginChoice){
-                    case "1":
-                        Console.WriteLine("play func");
-                             break;
-                        case "2":
-                        _quizzRepository.CreateQuiz(user.Id);
-                        break;
-                        case "3":
-                        Console.WriteLine("logout func");
-                        return;
-                    default:
-                        Console.WriteLine("Invalid option. Please try again.");
-                        break ;
-
-
-                    }
-                }
-
-        }
-
-
 
         public void CreateUser(User user)
         {
@@ -114,15 +81,23 @@ namespace QC_Quizz_App
             SaveData();
         }
 
-       
+
 
         public void SaveData()
         {
-            var json = JsonSerializer.Serialize(_users, new JsonSerializerOptions { WriteIndented = true});
-            File.WriteAllText(_filePath, json);
+            try
+            {
+                var json = JsonSerializer.Serialize(_users, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(_filePath, json);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error saving data: {ex.Message}");
+            }
         }
 
-        public  List<User> LoadUsers()
+
+        public List<User> LoadUsers()
         {
             if(!File.Exists(_filePath))
             {

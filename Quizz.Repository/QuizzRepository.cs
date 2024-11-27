@@ -1,5 +1,7 @@
-﻿using Quiz.Models;
+﻿using QC_Quizz_App;
+using Quiz.Models;
 using System.Text.Json;
+
 
 public class QuizzRepository
 {
@@ -58,6 +60,13 @@ public class QuizzRepository
         quiz.Id = _quiz.Any() ? _quiz.Max(x => x.Id) + 1 : 1;
         CreateQuiz(quiz);
         Console.WriteLine("Quiz created successfully!");
+    }
+
+    public List<Quizz> GetRandomQuestions(int count, int authorId)
+    {
+        var filteredQuizzes = _quiz.Where(x => x.AuthorId != authorId).ToList();
+        var random = new Random();
+        return filteredQuizzes.OrderBy(x => random.Next()).Take(count).ToList();    
     }
 
     private void SaveData()
