@@ -28,10 +28,11 @@ namespace QC_Quizz_App
             {
                 Console.WriteLine("\n--- Post Login Menu ---");
                 Console.WriteLine("1. Play Quiz");
-                Console.WriteLine("2. Create Quiz");
-                Console.WriteLine("3. Edit your qvizz");
-                Console.WriteLine("4. Delete your qvizz");
-                Console.WriteLine("5. Logout");
+                Console.WriteLine("2. Haiscorres");
+                Console.WriteLine("3. Create Quiz");
+                Console.WriteLine("4. Edit your qvizz");
+                Console.WriteLine("5. Delete your qvizz");
+                Console.WriteLine("6. Logout");
                 Console.Write("Select an option: ");
 
                 string afterLoginChoice = Console.ReadLine();
@@ -40,16 +41,19 @@ namespace QC_Quizz_App
                     case "1":
                         PlayGame(user);
                         break;
-                    case "2":
+                        case "2":
+                        _userRepository.GetTop10Haiscores();
+                        break;
+                    case "3":
                         _quizzRepository.CreateQuiz(user.Id);
                         break;
-                        case "3":
+                        case "4":
                            _quizzRepository.EditQuiz(user.Id);
                         break;
-                        case "4":
+                        case "5":
                             _quizzRepository.DeleteQuiz(user.Id);
                         break;
-                    case "5":
+                    case "6":
                         Console.WriteLine("logout func");
                         return;
                     default:

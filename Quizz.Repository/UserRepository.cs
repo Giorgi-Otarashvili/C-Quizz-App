@@ -76,6 +76,18 @@ using System.Text.Json;
             SaveData();
         }
 
+        public void GetTop10Haiscores()
+        {
+            var topUsers = _users
+                .OrderByDescending(x => x.HighScore)
+                .Take(10)
+                .ToList();
+            for (int i = 0; i < topUsers.Count; i++)
+            {
+                Console.WriteLine($"{i + 1} {topUsers[i].UserName}: {topUsers[i].HighScore}");
+            }
+        }
+
 
 
         public void SaveData()

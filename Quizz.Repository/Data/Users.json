@@ -16,5 +16,65 @@
     "UserName": "test",
     "Password": "test",
     "HighScore": 0
+  },
+  {
+    "Id": 4,
+    "UserName": "Nika2024",
+    "Password": "Nika2024Pass",
+    "HighScore": 0
+  },
+  {
+    "Id": 5,
+    "UserName": "Lasha99",
+    "Password": "Lasha1234",
+    "HighScore": 20
+  },
+  {
+    "Id": 6,
+    "UserName": "SalomeQ",
+    "Password": "SalomeStrong",
+    "HighScore": 40
+  },
+  {
+    "Id": 7,
+    "UserName": "DavitK",
+    "Password": "David99",
+    "HighScore": 60
+  },
+  {
+    "Id": 8,
+    "UserName": "Mariam123",
+    "Password": "Mari1234",
+    "HighScore": 80
+  },
+  {
+    "Id": 9,
+    "UserName": "George_88",
+    "Password": "George",
+    "HighScore": 0
+  },
+  {
+    "Id": 10,
+    "UserName": "Tamar99",
+    "Password": "Tamar",
+    "HighScore": 20
+  },
+  {
+    "Id": 11,
+    "UserName": "Ana777",
+    "Password": "AnaPassword",
+    "HighScore": 40
+  },
+  {
+    "Id": 12,
+    "UserName": "Alex_",
+    "Password": "Alex2024Pass",
+    "HighScore": 60
+  },
+  {
+    "Id": 13,
+    "UserName": "Sandro99",
+    "Password": "SandroPower",
+    "HighScore": 80
   }
 ]
