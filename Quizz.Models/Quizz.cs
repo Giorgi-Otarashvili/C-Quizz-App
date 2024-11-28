@@ -9,12 +9,10 @@ namespace Quiz.Models
     public class Quizz
     {
         public int Id { get; set; }
-        public string Question { get; set; }
-
-        public string[] Options { get; set; }
-
-        public int CorrectOpinionIndex { get; set; }
-
+        public string Title { get; set; } 
+        public List<Question> Questions { get; set; } 
         public int AuthorId { get; set; }
     }
+
+
 }

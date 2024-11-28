@@ -7,16 +7,11 @@ using System.Text.Json;
     public class UserRepository
     {
         private readonly string _filePath;
-        //private readonly QuizzRepository _quizzRepository;
         private List<User> _users;
-        //private readonly Game _game;
-        //private List<Quizz> _quiz;
-
-        public UserRepository(string filepath /*QuizzRepository quizzRepository = null*/)
+        public UserRepository(string filepath)
         {
             _filePath = filepath;
             _users = LoadUsers();
-            //_quizzRepository = quizzRepository;
         }
 
         public void Register()

@@ -3,12 +3,18 @@
     "Id": 1,
     "UserName": "Budzzzx",
     "Password": "Ravici66",
-    "HighScore": 0
+    "HighScore": 60
   },
   {
     "Id": 2,
     "UserName": "Gvanca",
     "Password": "Gvanca123",
     "HighScore": 100
+  },
+  {
+    "Id": 3,
+    "UserName": "test",
+    "Password": "test",
+    "HighScore": 0
   }
 ]

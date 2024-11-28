@@ -1,182 +1,173 @@
 [
   {
     "Id": 1,
-    "Question": "In which year was the first FIFA World Cup held?",
-    "Options": [
-      "1930",
-      "1934",
-      "1938",
-      "1942"
+    "Title": "History",
+    "Questions": [
+      {
+        "Text": "Who was the first President of the United States?",
+        "Options": [
+          "1) Abraham Lincoln",
+          "2) George Washington ",
+          "3) Thomas Jefferson",
+          "4) John Adams"
+        ],
+        "CorrectOptionIndex": 1
+      },
+      {
+        "Text": "In which year did World War II end?",
+        "Options": [
+          "1) 1939",
+          "2) 1942",
+          "3) 1945",
+          "4) 1950"
+        ],
+        "CorrectOptionIndex": 2
+      },
+      {
+        "Text": "Which ancient civilization built the pyramids?",
+        "Options": [
+          "1) Romans",
+          "2) Greeks",
+          "3) Egyptians",
+          "4) Mayans"
+        ],
+        "CorrectOptionIndex": 2
+      },
+      {
+        "Text": "What was the name of the ship on which the Pilgrims traveled to America in 1620?",
+        "Options": [
+          "1) Santa Maria",
+          "2) Titanic",
+          "3) Mayflower",
+          "4) Endeavour"
+        ],
+        "CorrectOptionIndex": 2
+      },
+      {
+        "Text": "Who was known as the \u0022Iron Lady\u0022?",
+        "Options": [
+          "1) Indira Gandhi",
+          "2) Angela Merkel",
+          "3) Margaret Thatcher",
+          "4) Hillary Clinton"
+        ],
+        "CorrectOptionIndex": 2
+      }
     ],
-    "CorrectOpinionIndex": 0,
     "AuthorId": 1
   },
   {
     "Id": 2,
-    "Question": "Which country has won the most FIFA World Cups?",
-    "Options": [
-      "Brazil",
-      "Germany",
-      "Italy",
-      "Argentina"
+    "Title": "Geography",
+    "Questions": [
+      {
+        "Text": "What is the largest continent on Earth?",
+        "Options": [
+          "1) Africa",
+          "2) Asia",
+          "3) Europe",
+          "4) South America"
+        ],
+        "CorrectOptionIndex": 1
+      },
+      {
+        "Text": "Which is the longest river in the world?",
+        "Options": [
+          "1) Amazon",
+          "2) Nile",
+          "3) Yangtze",
+          "4) Mississippi"
+        ],
+        "CorrectOptionIndex": 1
+      },
+      {
+        "Text": "What is the capital city of Australia?",
+        "Options": [
+          "1) Sydney",
+          "2) Melbourne",
+          "3) Canberra",
+          "4) Brisbane"
+        ],
+        "CorrectOptionIndex": 2
+      },
+      {
+        "Text": "Which desert is the largest in the world?",
+        "Options": [
+          "1) Gobi Desert",
+          "2) Kalahari Desert",
+          "3) Sahara Desert",
+          "4) Antarctic Desert"
+        ],
+        "CorrectOptionIndex": 3
+      },
+      {
+        "Text": "Which country has the most natural lakes?",
+        "Options": [
+          "1) Canada",
+          "2) United States",
+          "3) Russia",
+          "4) Brazil"
+        ],
+        "CorrectOptionIndex": 0
+      }
     ],
-    "CorrectOpinionIndex": 0,
     "AuthorId": 1
   },
   {
     "Id": 3,
-    "Question": "Which player has scored the most goals in FIFA World Cup history?",
-    "Options": [
-      "Messi",
-      "Klose",
-      "Ronaldo",
-      "Maradona"
+    "Title": "Movies",
+    "Questions": [
+      {
+        "Text": "Question: Who directed the movie Inception?",
+        "Options": [
+          "1)Quentin Tarantino",
+          "2)James Cameron",
+          "3)Steven Spielberg",
+          "4)Christofer Nolan"
+        ],
+        "CorrectOptionIndex": 3
+      },
+      {
+        "Text": "What is the highest grossing movie of all time? ",
+        "Options": [
+          "1)Titanic",
+          "2)Avatar",
+          "3)Avengers: Endgame",
+          "4)The Lion King"
+        ],
+        "CorrectOptionIndex": 1
+      },
+      {
+        "Text": "Question: In which movie does the character \u0022Forrest Gump\u0022 say the famous line, \u0022Life is like a box of chocolates\u0022?",
+        "Options": [
+          "1)The Green Mile",
+          "2)Cast Away",
+          "3)Forrest Gump",
+          "4)Saving Private Ryan"
+        ],
+        "CorrectOptionIndex": 2
+      },
+      {
+        "Text": "Question: What is the name of the wizarding school in the Harry Potter series?",
+        "Options": [
+          "1)Durmstrang Institute",
+          "2)Ilvermorny",
+          "3)Beauxbatons Academy",
+          "4)Hogwarts School of Witchcraft and Wizardry"
+        ],
+        "CorrectOptionIndex": 3
+      },
+      {
+        "Text": "Question: Who played the role of Iron Man in the Marvel Cinematic Universe?",
+        "Options": [
+          "1)Chris Hemsworth",
+          "2)Chris Evans",
+          "3)Robert Downey Jr.",
+          "4)Mark Ruffalo"
+        ],
+        "CorrectOptionIndex": 2
+      }
     ],
-    "CorrectOpinionIndex": 1,
-    "AuthorId": 1
-  },
-  {
-    "Id": 4,
-    "Question": "Which country hosted the 2010 FIFA World Cup?",
-    "Options": [
-      "South Africa",
-      "Brazil",
-      "Germany",
-      "Japan"
-    ],
-    "CorrectOpinionIndex": 0,
-    "AuthorId": 1
-  },
-  {
-    "Id": 5,
-    "Question": "Who won the FIFA World Cup in 2018?",
-    "Options": [
-      "France",
-      "Croatia",
-      "Germany",
-      "Argentina"
-    ],
-    "CorrectOpinionIndex": 0,
-    "AuthorId": 1
-  },
-  {
-    "Id": 6,
-    "Question": "What is the maximum number of players allowed on the field per team during a soccer match?",
-    "Options": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "CorrectOpinionIndex": 2,
-    "AuthorId": 1
-  },
-  {
-    "Id": 7,
-    "Question": "Which player won the Ballon d\u0027Or the most times?",
-    "Options": [
-      "Cristiano Ronaldo",
-      "Lionel Messi",
-      "Zinedine Zidane",
-      "Ronaldinho"
-    ],
-    "CorrectOpinionIndex": 1,
-    "AuthorId": 1
-  },
-  {
-    "Id": 8,
-    "Question": "Which is the only country to have participated in every FIFA World Cup since its inception?",
-    "Options": [
-      "Brazil",
-      "Germany",
-      "Italy",
-      "Argentina"
-    ],
-    "CorrectOpinionIndex": 0,
-    "AuthorId": 1
-  },
-  {
-    "Id": 9,
-    "Question": "What is the duration of a standard soccer match?",
-    "Options": [
-      "80 minutes",
-      "90 minutes",
-      "100 minutes",
-      "120 minutes"
-    ],
-    "CorrectOpinionIndex": 1,
-    "AuthorId": 1
-  },
-  {
-    "Id": 10,
-    "Question": "Who is known as \u0027The King of Football\u0027?",
-    "Options": [
-      "Pel\u00E9",
-      "Diego Maradona",
-      "Lionel Messi",
-      "Cristiano Ronaldo"
-    ],
-    "CorrectOpinionIndex": 0,
-    "AuthorId": 1
-  },
-  {
-    "Id": 11,
-    "Question": "Question: \u0022Which country will host the 2026 FIFA World Cup?\u0022",
-    "Options": [
-      "Qatar",
-      "Georgia",
-      "United States, Mexico, and Canada",
-      "England"
-    ],
-    "CorrectOpinionIndex": 2,
-    "AuthorId": 2
-  },
-  {
-    "Id": 12,
-    "Question": "Question: \u0022Who won the Ballon d\u0027Or in 2023?\u0022",
-    "Options": [
-      "Lionel Messi",
-      "Erling Haaland",
-      "Karim Benzema",
-      "Robert Lewandovsky"
-    ],
-    "CorrectOpinionIndex": 0,
-    "AuthorId": 2
-  },
-  {
-    "Id": 13,
-    "Question": "\u0022Which club has won the most UEFA Champions League titles?\u0022",
-    "Options": [
-      "Real Madrid",
-      "Liverpool",
-      "Milan",
-      "Barcelona"
-    ],
-    "CorrectOpinionIndex": 0,
-    "AuthorId": 2
-  },
-  {
-    "Id": 14,
-    "Question": "\u0022Who is considered one of Liverpool\u0027s greatest captains and spent his career as a midfielder?\u0022",
-    "Options": [
-      "Franck Lampard",
-      "Jordan Henderson",
-      "Virgil Van Dijk",
-      "Steven Gerrard"
-    ],
-    "CorrectOpinionIndex": 3,
-    "AuthorId": 2
-  },
-  {
-    "Id": 15,
-    "Question": "Who Won The Champions League in 2005 ? ",
-    "Options": [
-      "Ac Milan",
-      "Real Madrid",
-      "Liverpool",
-      "Chelsea"
-    ],
-    "CorrectOpinionIndex": 2,
-    "AuthorId": 2
+    "AuthorId": 3
   }
 ]

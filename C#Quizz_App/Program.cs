@@ -11,7 +11,6 @@ namespace C_Quizz_App
             var userRepository = new UserRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Users.json");
             var quizzRepository = new QuizzRepository("D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json");
 
-            // Step 2: Pass repositories to the Game class
             var game = new Game(quizzRepository, userRepository);
 
 
