@@ -73,7 +73,10 @@ namespace QC_Quizz_App
                 return;
             }
 
-            var quizzes = _quizzRepository.LoadQuizzes();
+      
+            var quizzes = _quizzRepository.LoadQuizzes()
+                                           .Where(q => q.AuthorId != user.Id) 
+                                           .ToList();
             if (!quizzes.Any())
             {
                 Console.WriteLine("No quizzes available for you to play.");

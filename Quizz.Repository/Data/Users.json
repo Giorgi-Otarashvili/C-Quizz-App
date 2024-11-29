@@ -76,5 +76,11 @@
     "UserName": "Sandro99",
     "Password": "SandroPower",
     "HighScore": 80
+  },
+  {
+    "Id": 14,
+    "UserName": "nika",
+    "Password": "nika321",
+    "HighScore": 0
   }
 ]

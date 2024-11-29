@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\C-Quizz-App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6B4D167-6327-476E-8A0A-774A38FC48F4}|C#Quizz_App\\C#Quizz_App.csproj|d:\\c-quizz-app\\c#quizz_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B4D167-6327-476E-8A0A-774A38FC48F4}|C#Quizz_App\\C#Quizz_App.csproj|solutionrelative:c#quizz_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\quizzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\quizzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D7B16F-5901-4509-8301-6C4F991CDFF8}|Quizz.Models\\Quiz.Models.csproj|d:\\c-quizz-app\\quizz.models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7D7B16F-5901-4509-8301-6C4F991CDFF8}|Quizz.Models\\Quiz.Models.csproj|solutionrelative:quizz.models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\data\\quiz.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{F7D7B16F-5901-4509-8301-6C4F991CDFF8}|Quizz.Models\\Quiz.Models.csproj|solutionrelative:quizz.models\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\quizzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\quizzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F7D7B16F-5901-4509-8301-6C4F991CDFF8}|Quizz.Models\\Quiz.Models.csproj|d:\\c-quizz-app\\quizz.models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D7B16F-5901-4509-8301-6C4F991CDFF8}|Quizz.Models\\Quiz.Models.csproj|solutionrelative:quizz.models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|d:\\c-quizz-app\\quizz.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED9BA095-8FB6-43CB-9F37-3997E25CB7B1}|Quizz.Repository\\Quiz.Repository.csproj|solutionrelative:quizz.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B4D167-6327-476E-8A0A-774A38FC48F4}|C#Quizz_App\\C#Quizz_App.csproj|d:\\c-quizz-app\\c#quizz_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B4D167-6327-476E-8A0A-774A38FC48F4}|C#Quizz_App\\C#Quizz_App.csproj|solutionrelative:c#quizz_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,32 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Quizz.Repository\\UserRepository.cs",
-              "ToolTip": "D:\\C-Quizz-App\\Quizz.Repository\\UserRepository.cs",
-              "RelativeToolTip": "Quizz.Repository\\UserRepository.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAA5wFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:35:38.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Users.json",
               "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Repository\\Data\\Users.json",
               "RelativeDocumentMoniker": "Quizz.Repository\\Data\\Users.json",
               "ToolTip": "D:\\C-Quizz-App\\Quizz.Repository\\Data\\Users.json",
               "RelativeToolTip": "Quizz.Repository\\Data\\Users.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-28T20:32:28.509Z",
+              "WhenOpened": "2024-11-29T13:42:15.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Quizz.Repository\\UserRepository.cs",
+              "ToolTip": "D:\\C-Quizz-App\\Quizz.Repository\\UserRepository.cs",
+              "RelativeToolTip": "Quizz.Repository\\UserRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:35:38.137Z",
               "EditorCaption": ""
             },
             {
@@ -78,14 +78,14 @@
               "RelativeDocumentMoniker": "Quizz.Repository\\Game.cs",
               "ToolTip": "D:\\C-Quizz-App\\Quizz.Repository\\Game.cs",
               "RelativeToolTip": "Quizz.Repository\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv0MAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T12:24:24.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Quizz.cs",
               "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Models\\Quizz.cs",
               "RelativeDocumentMoniker": "Quizz.Models\\Quizz.cs",
@@ -98,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Quiz.json",
               "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json",
               "RelativeDocumentMoniker": "Quizz.Repository\\Data\\Quiz.json",
               "ToolTip": "D:\\C-Quizz-App\\Quizz.Repository\\Data\\Quiz.json",
               "RelativeToolTip": "Quizz.Repository\\Data\\Quiz.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-28T12:25:10.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Questions.cs",
               "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Models\\Questions.cs",
               "RelativeDocumentMoniker": "Quizz.Models\\Questions.cs",
@@ -124,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "QuizzRepository.cs",
               "DocumentMoniker": "D:\\C-Quizz-App\\Quizz.Repository\\QuizzRepository.cs",
               "RelativeDocumentMoniker": "Quizz.Repository\\QuizzRepository.cs",
               "ToolTip": "D:\\C-Quizz-App\\Quizz.Repository\\QuizzRepository.cs",
               "RelativeToolTip": "Quizz.Repository\\QuizzRepository.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAA/wL4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAYwMwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T09:30:56.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C-Quizz-App\\C#Quizz_App\\Program.cs",
               "RelativeDocumentMoniker": "C#Quizz_App\\Program.cs",

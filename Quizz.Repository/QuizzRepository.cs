@@ -188,8 +188,6 @@ namespace QC_Quizz_App
 
         }
 
-
-
         public void SaveData()
         {
             var json = JsonSerializer.Serialize(_quiz, new JsonSerializerOptions { WriteIndented = true });
@@ -208,4 +206,4 @@ namespace QC_Quizz_App
         }
     }
 }
-       
+

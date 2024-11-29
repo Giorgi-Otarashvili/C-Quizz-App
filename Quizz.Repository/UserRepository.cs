@@ -87,9 +87,6 @@ using System.Text.Json;
                 Console.WriteLine($"{i + 1} {topUsers[i].UserName}: {topUsers[i].HighScore}");
             }
         }
-
-
-
         public void SaveData()
         {
             try
@@ -104,9 +101,10 @@ using System.Text.Json;
         }
 
 
+
         public List<User> LoadUsers()
         {
-            if(!File.Exists(_filePath))
+            if (!File.Exists(_filePath))
             {
                 return new List<User>();
             }
